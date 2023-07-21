@@ -12,15 +12,15 @@ h1 {
     width: 200px;
     margin: 10px auto;
 }
-
-.one {
-    background-color: red;
+/*Project used essentially to learn "rgb", "hex code", "hsl", how to use linear-grandient*/
+.red {
+    background: linear-gradient(180deg, rgb(122, 74, 14) 0%, rgb(245, 62, 113) 50%, rgb(162, 27, 27) 100%);
 }
 
-.two {
-    background-color: green;
+.green {
+    background-color: rgb(0, 255, 0);
 }
 
-.three {
-    background-color: blue;
+.blue {
+    background-color: hsl(240, 100%, 50%);
 }
